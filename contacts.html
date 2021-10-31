@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>3 Column Layout</title>
+    <link rel="stylesheet" href="assets/css/layout.css">
+</head>
+<body>
+<header class="header"><p><img src="assets/img/logo.png"height="40px" ></p></header>
+<div class="container">
+    <main class="center column">
+        <article>
+            <h1>Contacsts</h1>
+            <p></p>
+            <h1>Name</h1><input type="text" id="name" name="name" required
+                                minlength="4" maxlength="8" size="10">
+            <h1>Data</h1> <input type="date" id="start" name="trip-start"
+                                 value="2018-07-22"
+                                 min="2018-01-01" max="2018-12-31">
+            <h1>E-mail</h1><input type="email" id="email"
+                                  pattern=".+@globex\.com" size="30" required>
+            <h1>Gender</h1> <input type="radio" name="gender" value="male"> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other
+            <h1>Country</h1>
+            <select id="country" name="country">
+                <option>Select country</option>
+                <option value="AX">Aland Islands</option>
+                <option value="AL">Albania</option>
+                <option value="AD">Andorra</option>
+                <option value="AT">Austria</option>
+                <option value="BY">Belarus</option>
+                <option value="BE">Belgium</option>
+                <option value="BA">Bosnia and Herzegovina</option>
+                <option value="BG">Bulgaria</option>
+                <option value="HR">Croatia</option>
+                <option value="CZ">Czech Republic</option>
+                <option value="DK">Denmark</option>
+                <option value="EE">Estonia</option>
+                <option value="FO">Faroe Islands</option>
+                <option value="FI">Finland</option>
+                <option value="FR">France</option>
+                <option value="DE">Germany</option>
+                <option value="GI">Gibraltar</option>
+                <option value="GR">Greece</option>
+                <option value="GG">Guernsey</option>
+                <option value="VA">Holy See (Vatican City State)</option>
+                <option value="HU">Hungary</option>
+                <option value="IS">Iceland</option>
+                <option value="IE">Ireland</option>
+                <option value="IM">Isle of Man</option>
+                <option value="IT">Italy</option>
+                <option value="JE">Jersey</option>
+                <option value="XK">Kosovo</option>
+                <option value="LV">Latvia</option>
+                <option value="LI">Liechtenstein</option>
+                <option value="LT">Lithuania</option>
+                <option value="LU">Luxembourg</option>
+                <option value="MK">Macedonia, the Former Yugoslav Republic of</option>
+                <option value="MT">Malta</option>
+                <option value="MD">Moldova, Republic of</option>
+                <option value="MC">Monaco</option>
+                <option value="ME">Montenegro</option>
+                <option value="NL">Netherlands</option>
+                <option value="NO">Norway</option>
+                <option value="PL">Poland</option>
+                <option value="PT">Portugal</option>
+                <option value="RO">Romania</option>
+                <option value="SM">San Marino</option>
+                <option value="RS">Serbia</option>
+                <option value="CS">Serbia and Montenegro</option>
+                <option value="SK">Slovakia</option>
+                <option value="SI">Slovenia</option>
+                <option value="ES">Spain</option>
+                <option value="SJ">Svalbard and Jan Mayen</option>
+                <option value="SE">Sweden</option>
+                <option value="CH">Switzerland</option>
+                <option value="UA">Ukraine</option>
+                <option value="GB">United Kingdom</option>
+            </select>
+            <h1>Phone</h1>
+            <input type="tel" id="phone" name="phone"
+                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                   required>
+
+
+
+
+
+            <h1>Password</h1>
+            <div>
+                <label for="pass">Password (8 characters minimum):</label>
+                <input type="password" id="pass" name="password"
+                       minlength="8" required>
+            </div>
+
+            <input type="submit" value="Sign in">
+            <h1>  *********************** </h1>
+            <h1>   </h1>
+            <h1>   </h1>
+            <h1>    </h1>
+        </article>
+    </main>
+    <nav class="left column">
+        <h3>Left heading</h3>
+        <ul>
+            <li><a href="index.html">Head</a></li>
+            <li><a href="about.html">about us</a></li>
+            <li><a href="slider.html">slider</a></li>
+            <li><a href="table.html">table</a></li>
+            <li><a href="media.html">media</a></li>
+        </ul>
+        <h3>Left heading</h3>
+        <ul>
+            <li><a href="#">Link 1</a></li>
+        </ul>
+    </nav>
+    <div class="right column">
+        <h3>Right heading</h3>
+        <p></p>
+    </div>
+    <div class="push"></div>
+</div>
+<div class="footer-wrapper">
+    <footer class="footer"><p>Footer...</p></footer>
+</div>
+</body>
+</html>
